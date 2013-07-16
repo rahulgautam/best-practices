@@ -63,7 +63,7 @@ When I hear "JUST BANG OUT CODE THAT WORKS" I think of all the apps I don't use 
 
 Shortlist cut from [Jack Diederich's "Stop Writing Classes" talk](http://pyvideo.org/video/880/stop-writing-classes)
 
-## Don't Write Code
+## Don't Write Code 
 
 Don’t write code (write new code only when everything else fails) is the single most important lesson every developer needs to learn. The amount of duplicate, crappy code (across projects) that exists today is overwhelming. In a lot of cases developers don’t even bother to look around. They just want to write code.
 
