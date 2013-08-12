@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Best-practices by rahulgautam</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/rahulgautam/best-practices">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/rahulgautam/best-practices/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/rahulgautam/best-practices/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Best-practices</h1>
+          <p>Tidbits of developer best practices from around the web</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/rahulgautam">rahulgautam</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="programming-best-practices-tidbits" class="anchor" href="#programming-best-practices-tidbits"><span class="octicon octicon-link"></span></a>Programming Best Practices Tidbits</h1>
+
+<h3>
+<a name="a-collection-of-quotes-and-paraphrases-for-developers-from-around-the-web" class="anchor" href="#a-collection-of-quotes-and-paraphrases-for-developers-from-around-the-web"><span class="octicon octicon-link"></span></a>A Collection of quotes and paraphrases for developers from around the web.</h3>
+
+<p>Use your own judgment in their application<a href="http://www.reddit.com/r/programming/comments/1bcebh/programming_best_practices/c95y6la">.</a></p>
+
+<hr><h2>
+<a name="never-build-large-apps" class="anchor" href="#never-build-large-apps"><span class="octicon octicon-link"></span></a>Never build Large Apps</h2>
+
+<p>The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application.</p>
+
+<p>– Justin Meyer, author JavaScript MVC</p>
+
+<p><a href="http://bitovi.com/blog/2010/11/organizing-a-jquery-application.html">Source</a></p>
+
+<h2>
+<a name="accept-that-you-have-no-idea-how-this-will-grow" class="anchor" href="#accept-that-you-have-no-idea-how-this-will-grow"><span class="octicon octicon-link"></span></a>Accept that you have no idea how this will grow</h2>
+
+<p>The key is to acknowledge from the start that you have no idea how this will grow. When you accept that you don't know everything, you begin to design the system defensively... You should spend most of your time thinking about interfaces rather than implementations.</p>
+
+<p>– Nicholas Zakas, author "High-performance JavaScript websites"</p>
+
+<p><a href="http://radar.oreilly.com/2011/06/big-javascript-apps-teams.html">Source</a></p>
+
+<p><a href="http://addyosmani.com/largescalejavascript/">Acknowledgement to Addy Osmani</a></p>
+
+<h2>
+<a name="follow-the-principles-of-x" class="anchor" href="#follow-the-principles-of-x"><span class="octicon octicon-link"></span></a>Follow the principles of X</h2>
+
+<p>In 1984, Bob Scheifler and Jim Gettys set out the early principles of X:</p>
+
+<ul>
+<li>Do not add new functionality unless an implementor cannot complete a real application without it.</li>
+<li>It is as important to decide what a system is not as to decide what it is. Do not serve all the world's needs; rather, make the system extensible so that additional needs can be met in an upwardly compatible fashion.</li>
+<li>The only thing worse than generalizing from one example is generalizing from no examples at all.</li>
+<li>If a problem is not completely understood, it is probably best to provide no solution at all.</li>
+<li>If you can get 90 percent of the desired effect for 10 percent of the work, use the simpler solution. (See also Worse is better.)</li>
+<li>Isolate complexity as much as possible.</li>
+<li>Provide mechanism rather than policy. In particular, place user interface policy in the clients' hands.</li>
+</ul><p>The first principle was modified during the design of X11 to: "Do not add new functionality unless you know of some real application that will require it."</p>
+
+<p><a href="http://en.wikipedia.org/wiki/X_Window_System_protocols_and_architecture#Design_principles">Source</a></p>
+
+<h2>
+<a name="quality-matters" class="anchor" href="#quality-matters"><span class="octicon octicon-link"></span></a>Quality Matters</h2>
+
+<p>When I hear "JUST BANG OUT CODE THAT WORKS" I think of all the apps I don't use anymore because they gradually lost the ability to iterate.</p>
+
+<p>– Avdi Grimm</p>
+
+<p><a href="https://twitter.com/#!/avdi/status/180747721852985344">Source</a></p>
+
+<h2>
+<a name="dont-do-hard-things-do-easy-things" class="anchor" href="#dont-do-hard-things-do-easy-things"><span class="octicon octicon-link"></span></a>Don't do hard things, do easy things.</h2>
+
+<ul>
+<li>Simple is better than complex.</li>
+<li>Complex is better than complicated.</li>
+<li>Flat is better than nested.</li>
+<li>Readability counts.</li>
+<li>If the implementation is hard to explain, it's a bad idea.</li>
+<li>If the implementation is easy to explain, it may be a good idea.</li>
+</ul><p>– The Zen of Python</p>
+
+<p><a href="http://www.python.org/dev/peps/pep-0020/">Source</a></p>
+
+<p>Shortlist cut from <a href="http://pyvideo.org/video/880/stop-writing-classes">Jack Diederich's "Stop Writing Classes" talk</a></p>
+
+<h2>
+<a name="dont-write-code" class="anchor" href="#dont-write-code"><span class="octicon octicon-link"></span></a>Don't Write Code</h2>
+
+<p>Don’t write code (write new code only when everything else fails) is the single most important lesson every developer needs to learn. The amount of duplicate, crappy code (across projects) that exists today is overwhelming. In a lot of cases developers don’t even bother to look around. They just want to write code.</p>
+
+<p><a href="http://blogs.agilefaqs.com/2009/10/19/biggest-stinkers/">Source</a></p>
+
+<h4>
+<a name="reducing-the-amount-of-code-in-your-product-should-be-a-goal" class="anchor" href="#reducing-the-amount-of-code-in-your-product-should-be-a-goal"><span class="octicon octicon-link"></span></a>Reducing the amount of code in your product should be a goal.</h4>
+
+<p>"I hate code, and I want as little of it as possible in our product."
+– Jack Diederich</p>
+
+<p><a href="http://pyvideo.org/video/880/stop-writing-classes">Source</a></p>
+
+<h4>
+<a name="keep-lean-dependencies" class="anchor" href="#keep-lean-dependencies"><span class="octicon octicon-link"></span></a>Keep Lean Dependencies</h4>
+
+<p>The old adage "don't reinvent the wheel" doesn't apply when the wheel comes attached to a locomotive engine.</p>
+
+<p><a href="http://www.reddit.com/r/programming/comments/1bcebh/programming_best_practices/c9616mn">Source</a></p>
+
+<h2>
+<a name="stop-writing-classes" class="anchor" href="#stop-writing-classes"><span class="octicon octicon-link"></span></a>Stop Writing Classes</h2>
+
+<p>The signature of "this shouldn't be a class" is when the class has two methods, and one of them is the constructor.
+Any time you see these signs, you probably should have just written a function.</p>
+
+<p>– Jack Diederich</p>
+
+<p><a href="http://pyvideo.org/video/880/stop-writing-classes">Source</a></p>
+
+<h2>
+<a name="reinvent-the-wheel" class="anchor" href="#reinvent-the-wheel"><span class="octicon octicon-link"></span></a>Reinvent the Wheel</h2>
+
+<p>Inventing your own wheels gives you a deep appreciation and understanding of how wheels work and what makes a good one.</p>
+
+<p><a href="http://nodejs.debuggable.com/2011-02-26.txt">Source</a></p>
+
+<h2>
+<a name="refactoring--rewriting" class="anchor" href="#refactoring--rewriting"><span class="octicon octicon-link"></span></a>Refactoring &gt; Rewriting</h2>
+
+<h4>
+<a name="common-excuses-for-a-software-rewrite" class="anchor" href="#common-excuses-for-a-software-rewrite"><span class="octicon octicon-link"></span></a>Common Excuses For A Software Rewrite</h4>
+
+<ol>
+<li>The Code Sucks</li>
+<li>"We're So Much Smarter Now"</li>
+<li>We Picked The Wrong Platform/Language</li>
+</ol><h4>
+<a name="why-rewriting-is-almost-never-a-good-idea" class="anchor" href="#why-rewriting-is-almost-never-a-good-idea"><span class="octicon octicon-link"></span></a>Why Rewriting Is (Almost) Never A Good Idea</h4>
+
+<ol>
+<li><a href="http://en.wikipedia.org/wiki/Hofstadter's_law">It Always Takes Longer Than You Expect</a></li>
+<li>Markets Change</li>
+<li>Existing Customers Become Frustrated</li>
+<li>Refactoring Can Cleanup The Code</li>
+<li>You Don't Control The Rewrite, It Controls You</li>
+</ol><p><a href="http://onstartups.com/tabid/3339/bid/2596/Why-You-Should-Almost-Never-Rewrite-Your-Software.aspx">Source</a></p>
+
+<h2>
+<a name="rewriting--patching" class="anchor" href="#rewriting--patching"><span class="octicon octicon-link"></span></a>Rewriting &gt; Patching</h2>
+
+<p>If you are changing more than 25% of a class or method, consider simply rewriting it. You will write the code more cleanly.</p>
+
+<h2>
+<a name="forget-new-features-just-do-the-same-stuff-better" class="anchor" href="#forget-new-features-just-do-the-same-stuff-better"><span class="octicon octicon-link"></span></a>Forget new features, Just do the same stuff better.</h2>
+
+<p>The problem: it is too easy to lose sight of what users often care about more, which is the performance and usability of the applications and features they already use most often.</p>
+
+<p>– Tim Anderson</p>
+
+<p><a href="http://www.itjoblog.co.uk/2011/06/making-better-software.html">Source</a></p>
+
+<h2>
+<a name="write-unit-tests" class="anchor" href="#write-unit-tests"><span class="octicon octicon-link"></span></a>Write unit tests.</h2>
+
+<p>Every programmer knows they should write tests for
+their code. Few do. The universal response to "Why not?" is "I'm
+in too much of a hurry." This quickly becomes a vicious cycle- the more pressure you feel, the fewer tests you write. The fewer tests you write, the less productive you are and the less stable your code becomes. The less productive and accurate you are, the more pressure you feel.
+Programmers burn out from just such cycles.
+Breaking out requires an outside influence. We found the outside influence we needed in a simple testing framework that lets us do a little testing that
+makes a big difference.</p>
+
+<p><a href="http://junit.sourceforge.net/doc/testinfected/testing.htm">Source</a></p>
+
+<h4>
+<a name="without-unit-tests-youre-not-refactoring-youre-just-changing-shit--hamlet-darcy" class="anchor" href="#without-unit-tests-youre-not-refactoring-youre-just-changing-shit--hamlet-darcy"><span class="octicon octicon-link"></span></a>[Without unit tests] You're not refactoring, you're just changing shit. — Hamlet D'Arcy</h4>
+
+<h2>
+<a name="to-write-effective-unit-tests-you-need-to-write-testable-code" class="anchor" href="#to-write-effective-unit-tests-you-need-to-write-testable-code"><span class="octicon octicon-link"></span></a>To write effective unit tests, you need to write testable code</h2>
+
+<h3>
+<a name="flaw-1-constructor-does-real-work" class="anchor" href="#flaw-1-constructor-does-real-work"><span class="octicon octicon-link"></span></a>Flaw #1: Constructor does Real Work</h3>
+
+<h4>
+<a name="warning-signs" class="anchor" href="#warning-signs"><span class="octicon octicon-link"></span></a>Warning Signs</h4>
+
+<ul>
+<li>new keyword in a constructor or at field declaration</li>
+<li>Static method calls in a constructor or at field declaration</li>
+<li>Anything more than field assignment in constructors</li>
+<li>Object not fully initialized after the constructor finishes (watch out forinitialize methods)</li>
+<li>Control flow (conditional or looping logic) in a constructor</li>
+<li>Code does complex object graph construction inside a constructor rather than using a factory or builder</li>
+<li>Adding or using an initialization block</li>
+</ul><h3>
+<a name="flaw-2-digging-into-collaborators" class="anchor" href="#flaw-2-digging-into-collaborators"><span class="octicon octicon-link"></span></a>Flaw #2: Digging into Collaborators</h3>
+
+<h4>
+<a name="warning-signs-1" class="anchor" href="#warning-signs-1"><span class="octicon octicon-link"></span></a>Warning Signs</h4>
+
+<ul>
+<li>Objects are passed in but never used directly (only used to get access to other objects)</li>
+<li>Law of Demeter violation: method call chain walks an object graph with more than one dot (.)</li>
+<li>Suspicious names: context, environment, principal, container, or manager</li>
+</ul><h3>
+<a name="flaw-3-brittle-global-state--singletons" class="anchor" href="#flaw-3-brittle-global-state--singletons"><span class="octicon octicon-link"></span></a>Flaw #3: Brittle Global State &amp; Singletons</h3>
+
+<h4>
+<a name="warning-signs-2" class="anchor" href="#warning-signs-2"><span class="octicon octicon-link"></span></a>Warning Signs</h4>
+
+<ul>
+<li>Adding or using singletons</li>
+<li>Adding or using static fields or static methods</li>
+<li>Adding or using static initialization blocks</li>
+<li>Adding or using registries</li>
+<li>Adding or using service locators</li>
+</ul><h3>
+<a name="flaw-4-class-does-too-much" class="anchor" href="#flaw-4-class-does-too-much"><span class="octicon octicon-link"></span></a>Flaw #4: Class Does Too Much</h3>
+
+<h4>
+<a name="warning-signs-3" class="anchor" href="#warning-signs-3"><span class="octicon octicon-link"></span></a>Warning Signs</h4>
+
+<ul>
+<li>Summing up what the class does includes the word “and”</li>
+<li>Class would be challenging for new team members to read and quickly “get it”</li>
+<li>Class has fields that are only used in some methods</li>
+<li>Class has static methods that only operate on parameters</li>
+</ul><p><a href="http://misko.hevery.com/code-reviewers-guide/">Source</a></p>
+
+<p><a href="http://misko.hevery.com/presentations/">Source</a></p>
+
+<h2>
+<a name="test-driven-development-with-inversion-of-control" class="anchor" href="#test-driven-development-with-inversion-of-control"><span class="octicon octicon-link"></span></a>Test-Driven Development with Inversion of Control.</h2>
+
+<p>Even if you aren't testing your code, you should write testable code. IoC enables testable code. Inject test-friendly dependencies or mocks at test time, to isolate the unit-under-test.</p>
+
+<h2>
+<a name="avoid-mixing-object-creation-with-application-logic" class="anchor" href="#avoid-mixing-object-creation-with-application-logic"><span class="octicon octicon-link"></span></a>Avoid mixing Object Creation with Application Logic</h2>
+
+<p><a href="http://misko.hevery.com/2008/09/30/2008/07/08/how-to-think-about-the-new-operator/">Source</a></p>
+
+<h2>
+<a name="avoid-code-smells" class="anchor" href="#avoid-code-smells"><span class="octicon octicon-link"></span></a>Avoid Code Smells</h2>
+
+<p><a href="http://www.codinghorror.com/blog/2006/05/code-smells.html">Source</a><br><a href="http://web.archive.org/web/20120130234037/http://stackoverflow.com/questions/114342/what-are-code-smells-what-is-the-best-way-to-correct-them">Source</a></p>
+
+<h2>
+<a name="avoid-creating-technical-debt" class="anchor" href="#avoid-creating-technical-debt"><span class="octicon octicon-link"></span></a>Avoid creating technical debt.</h2>
+
+<p>"Although immature code may work fine and be completely acceptable to the customer, excess quantities will make a program unmasterable, leading to extreme specialization of programmers and finally an inflexible product. ... A little debt speeds development so long as it is paid back promptly with a rewrite ... <em>Every minute spent on not-quite-right code counts as interest on that <a href="http://en.wikipedia.org/wiki/Technical_debt">debt</a>.</em> Entire engineering organizations can be brought to a stand-still under the debt load of an unconsolidated implementation ...”
+(Emphasis mine)</p>
+
+<p><a href="http://c2.com/doc/oopsla92.html">Source</a></p>
+
+<h2>
+<a name="premature-optimisation-is-the-root-of-all-evil" class="anchor" href="#premature-optimisation-is-the-root-of-all-evil"><span class="octicon octicon-link"></span></a>Premature optimisation is the root of all evil</h2>
+
+<p>"Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."</p>
+
+<p><a href="http://c2.com/cgi/wiki?PrematureOptimization">Source</a></p>
+
+<h2>
+<a name="plan-plan-plan" class="anchor" href="#plan-plan-plan"><span class="octicon octicon-link"></span></a>Plan, Plan, Plan.</h2>
+
+<p>It is much cheaper to do it correctly the first time than to redo it later on.
+The sooner a problem is identified and fixed, the cheaper it is to do so.</p>
+
+<p>"The general who wins a battle makes many calculations in his temple before the battle is fought. The general who loses a battle makes but few calculations beforehand. Thus do many calculations lead to victory,
+and few calculations to defeat: how much more no calculation at all! It is by attention to this point that I can foresee who is likely to win or lose."</p>
+
+<h4>
+<a name="plans-are-worthless-planning-is-invaluable--sir-winston-churchill" class="anchor" href="#plans-are-worthless-planning-is-invaluable--sir-winston-churchill"><span class="octicon octicon-link"></span></a>"Plans are worthless, planning is invaluable."- Sir Winston Churchill</h4>
+
+<p>For this to work, everyone involved has to listen, everyone has to be open, everyone has to be responsive. Or we could keep flailing away with the fucked up attitude that “it has to be this way” because the sacred project plan says it’s this way. Because that really is a lot of fun, isn’t it?</p>
+
+<h2>
+<a name="programming-is-also-teaching-your-team" class="anchor" href="#programming-is-also-teaching-your-team"><span class="octicon octicon-link"></span></a>Programming is also Teaching your team</h2>
+
+<p>... a team of mediocre, inexperienced coders who work together and write for the benefit of the team has the capability to become a great team, and they can take that learning approach to create other great teams. <em>It all comes down to whether the team sees its work as simply writing code... or writing with the goal of both code and learning</em>"
+(Emphasis mine)</p>
+
+<p>– Reginald Braithwaite</p>
+
+<p><a href="http://www.theserverside.com/tt/articles/article.tss?l=ProgrammingisAlsoTeachingYourTeam">Source</a></p>
+
+<h3>
+<a name="the-most-important-element-of-successful-software-development-is-learning" class="anchor" href="#the-most-important-element-of-successful-software-development-is-learning"><span class="octicon octicon-link"></span></a>"The most important element of successful software development is learning."</h3>
+
+<p>When the entire team meets a certain standard for competence, there is a very large learning surface exposed and the team is able to absorb more information.</p>
+
+<p><a href="http://weblog.raganwald.com/2007/06/which-theory-first-evidence.html">Source</a></p>
+
+<h2>
+<a name="there-are-lies-damned-lies-and-software-development-estimates" class="anchor" href="#there-are-lies-damned-lies-and-software-development-estimates"><span class="octicon octicon-link"></span></a>"...there are lies, damned lies, and software development estimates."</h2>
+
+<p>Software can only partially be designed in advance. ... requirements suffer from observation, that the act of building software causes the requirements to change. ...technical factors cannot be perfectly understood, that only the act of trying to build something with specific components will reveal all of the gotchas and who-knews associated with a chosen technology strategy. ...software design is an iterative process, starting with a best guess that is continually refined with experience.
+the normal case for software projects is that tasks are rarely completed exactly as estimated, but that as a project progresses, the aggregate variance from estimates falls.</p>
+
+<p><a href="http://weblog.raganwald.com/2007/06/which-theory-first-evidence.html">Source</a></p>
+
+<p>Nobody likes to look stupid. If you’re a professional and someone puts you on the spot to answer “how long will this take?” it’s only human to want to provide an answer. Whether you call it professional pride or ego, it’s a powerful driver.
+Good IT workers really don’t like saying “I don’t know.” If they say it, they probably mean it. So stop pushing for a definitive answer when one doesn’t exist.It’s perfectly reasonable to want some sort of plan up front. I’m actually one of those funny types who believe up front planning is a necessity. So long as everyone understands an estimate is just that: an estimate. You learn as you go along and discover more detail. So you revise the estimate accordingly.</p>
+
+<h2>
+<a name="your-architecture-should-resemble-your-domain" class="anchor" href="#your-architecture-should-resemble-your-domain"><span class="octicon octicon-link"></span></a>Your architecture should resemble your domain</h2>
+
+<p>So what does the architecture of your application scream? When you look at the top level directory structure, and the source files in the highest level package; do they scream: health care system, or accounting system, or inventory management system? Or do they scream: rails, or spring/hibernate, or asp?</p>
+
+<p>Architectures should not be supplied by frameworks. Frameworks are tools to be used, not architectures to be conformed to. If your architecture is based on frameworks, then it cannot be based on your use cases.</p>
+
+<p>– Uncle Bob Martin, "Screaming Architecture"</p>
+
+<p><a href="http://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html">Source</a></p>
+
+<h2>
+<a name="unix-philosophy" class="anchor" href="#unix-philosophy"><span class="octicon octicon-link"></span></a>Unix Philosophy</h2>
+
+<p>"This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface" - Doug McIlroy, quoted in A Quarter Century of Unix [Salus]. Addison-Wesley. 1994. ISBN 0-201-54777-5.</p>
+
+<ul>
+<li>Rule of Modularity: Write simple parts connected by clean interfaces.</li>
+<li>Rule of Clarity: Clarity is better than cleverness.</li>
+<li>Rule of Composition: Design programs to be connected to other programs.</li>
+<li>Rule of Separation: Separate policy from mechanism; separate interfaces from engines.</li>
+<li>Rule of Simplicity: Design for simplicity; add complexity only where you must.</li>
+<li>Rule of Parsimony: Write a big program only when it is clear by demonstration that nothing else will do.</li>
+<li>Rule of Transparency: Design for visibility to make inspection and debugging easier.</li>
+<li>Rule of Robustness: Robustness is the child of transparency and simplicity.</li>
+<li>Rule of Representation: Fold knowledge into data so program logic can be stupid and robust.</li>
+<li>Rule of Least Surprise: In interface design, always do the least surprising thing.</li>
+<li>Rule of Silence: When a program has nothing surprising to say, it should say nothing.</li>
+<li>Rule of Repair: When you must fail, fail noisily and as soon as possible.</li>
+<li>Rule of Economy: Programmer time is expensive; conserve it in preference to machine time.</li>
+<li>Rule of Generation: Avoid hand-hacking; write programs to write programs when you can.</li>
+<li>Rule of Optimization: Prototype before polishing. Get it working before you optimize it.</li>
+<li>Rule of Diversity: Distrust all claims for “one true way”.</li>
+<li>Rule of Extensibility: Design for the future, because it will be here sooner than you think.</li>
+</ul><p>– Eric S. Raymond, "The Art of Unix Programming"</p>
+
+<p><a href="http://www.catb.org/esr/writings/taoup/html/ch01s06.html">Source</a></p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
